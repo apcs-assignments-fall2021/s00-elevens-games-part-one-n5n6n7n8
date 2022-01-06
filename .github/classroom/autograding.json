@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Card Getters",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testCardGetters",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "CardEquals",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testCardEquals",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "DeckConstructor",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testDeckConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SelectionShuffle",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testSelectionShuffle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Deal",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testDeal",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
