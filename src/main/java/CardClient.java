@@ -57,9 +57,16 @@ public class CardClient {
 		// ace of hearts (point value = 14)
 
 //		// Shuffle the deck
-//		Deck d2 = new Deck(ranks, suits, values);
-//		d2.shuffle();
-//		System.out.println(d2);
+		System.out.println("SHUFFLING");
+		Deck d2 = new Deck(ranks, suits, values);
+		d2.shuffle();
+		System.out.println(d2);
+
+
+		System.out.println("PERFECT SHUFFLING");
+		Deck d3 = new Deck(ranks, suits, values);
+		d3.perfectShuffle();
+		System.out.println(d3);
 //		// The output will be some random ordering of the cards in the deck
 	}
 }
